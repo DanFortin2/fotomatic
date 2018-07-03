@@ -234,7 +234,9 @@ header .mobile {
 }
 
 #features-section .content {
-  padding-top: 47px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .feature {
@@ -249,7 +251,7 @@ header .mobile {
 
 .feature .image-container {
   margin: 0 auto;
-    padding: 2rem 2rem 0 2rem;
+  padding: 2rem 2rem 0 2rem;
 }
 
 .feature .center {
