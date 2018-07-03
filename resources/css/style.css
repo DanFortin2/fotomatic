@@ -231,7 +231,6 @@ header .mobile {
   padding: 4rem 5%;
   background-color: #f3f3f3;
   margin-bottom: 46px;
-  height: 635px;
 }
 
 #features-section .content {
@@ -240,14 +239,36 @@ header .mobile {
 
 .feature {
   flex-shrink: 1;
-  padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
-
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  height: 603px;
 }
 
 .feature .image-container {
   margin: 0 auto;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.feature .center {
+  margin: 0 auto;
+  padding-bottom: 0;
+  height: 603px;
+}
+
+.feature .content {
+  border: 1px solid black;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.image-container img {
+  width: 100%;
+  margin: 0;
 }
 
 .feature h2 {
