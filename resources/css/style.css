@@ -6,6 +6,7 @@ html {
   font-size: 16px;
 }
 
+
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
@@ -230,13 +231,11 @@ header .mobile {
   justify-content: space-between;
   padding: 4rem 5%;
   background-color: #f3f3f3;
-  margin-bottom: 46px;
 }
 
-#features-section .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+.content h2 {
+  margin-top: 40px;
 }
 
 .feature {
@@ -245,24 +244,23 @@ header .mobile {
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: space-between;
-  height: 603px;
 }
 
 .feature .image-container {
-  margin: 0 auto;
-  padding: 2rem 2rem 0 2rem;
+  margin: 2rem 2rem 0 2rem;
 }
 
 .feature .center {
   margin: 0 auto;
   padding-bottom: 0;
-  height: 603px;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .feature .content {
   border: 1px solid black;
-  height: 35%;
+  height: 187px;
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
