@@ -416,17 +416,28 @@ header .mobile {
 
 footer {
   background-color: #9b9b9b;
-  padding: 1.5rem 2rem;
+  height: 3.875rem;
 }
 
 footer .content {
   color: white;
+  height: 100%;
   display: flex;
-  font-size: .75rem;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.copyright, .location {
+  font-size: 0.75rem;
 }
 
 footer .copyright {
   flex-grow: 1;
+  margin-left: 2rem;
+}
+
+footer .location {
+  margin-right: 2rem;
 }
 
 @media only screen and (min-width: 760px) {
