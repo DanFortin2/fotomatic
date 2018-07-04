@@ -56,7 +56,7 @@ header .content {
 }
 
 header .logo {
-  flex: 1;
+  flex-grow: 1;
 }
 
 header nav ul {
@@ -83,8 +83,54 @@ header .mobile {
   display: none;
 }
 
+header .tablet {
+  display: none;
+}
+
 @media only screen and (max-width: 760px) {
   header .desktop {
+    display: none;
+  }
+
+  header .tablet {
+    display: block;
+  }
+
+  header .content {
+    padding: .5rem 0;
+  }
+
+  header .tablet ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .content .logo {
+    margin-left: 1rem;
+  }
+
+  .tablet .button {
+    margin-right: 1rem;
+    padding: 0;
+  }
+
+  header .tablet .button {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+
+  nav li {
+    padding-left: 1rem;
+  }
+}
+
+
+@media only screen and (max-width: 504px) {
+  header .tablet {
     display: none;
   }
 
@@ -187,6 +233,7 @@ header .mobile {
     height: auto;
     background-color: transparent;
     border: none;
+    padding: 0;
   }
 
   #sign-up-cta .content {
@@ -209,6 +256,12 @@ header .mobile {
 @media only screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
+  }
+
+  #sign-up-section .header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
   #sign-up-cta h1 {
@@ -292,9 +345,24 @@ header .mobile {
     font-size: .875rem;
     line-height: 1.4;
   }
+
+  .feature {
+    justify-content: space-around;
+    margin: 0 0.5rem;
+  }
+
+  #features-section {
+    padding: 5% 0;
+    margin: 0;
+  }
+
+  .feature .image-container {
+    margin: 0.5rem 0.5rem 0 0.5rem;
+  }
+
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 480px) {
   #features-section {
     flex-flow: column;
     padding: 0;
