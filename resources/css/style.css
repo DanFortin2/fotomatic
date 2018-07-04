@@ -311,12 +311,13 @@ header .mobile {
 #filters-section {
   padding: 4rem 0;
   background-color: #4a4a4a;
-  height: 635px;
+  border: 1px solid red;
 }
 
 #filters-section .content {
   padding: 0 .625rem;
   margin-bottom: 5rem;
+  border: 1px solid green;
 }
 
 #filters-section .content h2 {
@@ -336,6 +337,11 @@ header .mobile {
   max-width: 100%;
   padding: 0 1%;
   display: flex;
+  border: 1px solid black;
+}
+
+.images-container img {
+  height: 100%;
 }
 
 @media only screen and (max-width: 760px) {
