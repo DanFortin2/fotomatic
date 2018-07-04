@@ -171,6 +171,7 @@ header .mobile {
 #sign-up-cta .button {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
+  margin-bottom: 1.25rem;
 }
 
 @media only screen and (max-width: 760px) {
@@ -221,10 +222,6 @@ header .mobile {
 
 /* Features Section */
 
-#features-section, .feature, .center {
-  border: 1px solid red;
-}
-
 
 #features-section {
   display: flex;
@@ -259,7 +256,6 @@ header .mobile {
 }
 
 .feature .content {
-  border: 1px solid black;
   height: 187px;
   display: flex;
   flex-direction: column;
@@ -339,6 +335,7 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
 }
 
 @media only screen and (max-width: 760px) {
