@@ -30,7 +30,7 @@ html {
   display: block;
   width: 90%;
   height: 65%;
-  margin: 32px 32px 0 32px;
+  margin: 2rem 2rem 0 2rem;
 }
 
 @media only screen and (max-width: 760px) {
@@ -134,8 +134,8 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
-  margin-top: 170px;
-  margin-left: 100px;
+  margin-top: 10.625rem;
+  margin-left: 6.25rem;
 }
 
 #sign-up-cta .content {
@@ -232,7 +232,7 @@ header .mobile {
 
 
 .content h2 {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .feature {
@@ -256,7 +256,7 @@ header .mobile {
 }
 
 .feature .content {
-  height: 187px;
+  height: 11.6875rem;
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
